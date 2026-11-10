@@ -1,0 +1,9 @@
+BUILD AN APK WITHOUT ANDROID STUDIO (GITHUB ACTIONS)
+
+1. Create a PRIVATE repository at github.com/new. Do not upload patient data or backups.
+2. Upload the CONTENTS of this InpatientPFTracker-Android folder to the root of the repository, including the hidden .github folder.
+3. Open the repository Actions tab. Choose Build Inpatient PF Tracker APK, then Run workflow. (Or push to main.)
+4. Wait for the workflow to complete. Open the completed run and download the artifact InpatientPFTracker-v1.3-debug-APK.
+5. Unzip that artifact to obtain app-debug.apk. Transfer it to your Android phone and install.
+
+This is an unsigned-for-release debug build for personal testing. It is not published to Google Play. The source project has not been compiled or tested here; GitHub Actions may reveal errors requiring fixes.
